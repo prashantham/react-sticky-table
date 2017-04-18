@@ -19,7 +19,7 @@
   margin-top: -2px;
   z-index: 2;
 }
-.sticky-table .sticky-header .cell {
+.sticky-table .sticky-header .sticky-table__cell {
   border-bottom: 2px solid #e5e5e5;
   transition: 0.2s;
 }
@@ -54,7 +54,7 @@ Because of this it won't paint when the scrollbar paints.
 This one was crucial for performance.
 Scrolling is probably 10-20x smoother.
 */
-.sticky-table .sticky-table-x-wrapper .table{
+.sticky-table .sticky-table-x-wrapper .sticky-table__table{
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
 }

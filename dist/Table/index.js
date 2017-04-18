@@ -103,7 +103,7 @@
       value: function render() {
         return _react2.default.createElement(
           'div',
-          _extends({}, this.props, { className: 'table ' + (this.props.className || '') }),
+          _extends({}, this.props, { className: 'sticky-table__table ' + (this.props.className || '') }),
           this.props.children
         );
       }
